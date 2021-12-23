@@ -40,12 +40,12 @@
 <img align="" src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=ez2task&theme=tokyonight" width="45%" />
 </a>
 
-<a href="https://github.com/igorsimb/shag_homework_l34" target="_blank">
- <img align="" src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=shag_homework_l34&theme=tokyonight " width="45%" />
+<a href="https://github.com/igorsimb/my_recipes" target="_blank">
+ <img align="" src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=my_recipes&theme=tokyonight " width="45%" />
 </a>
 </p>
 
-[comment]: <> ([![Readme Card]&#40;https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=shag_homework_l34&theme=dark&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
+[comment]: <> ([![Readme Card]&#40;https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=my_recipes&theme=dark&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
 
 <br>
 

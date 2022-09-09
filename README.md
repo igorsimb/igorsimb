@@ -30,22 +30,12 @@
 
 <p align="center">
 <a href="https://github.com/igorsimb/ez2task" target="_blank">  
-    <img src="https://github.com/igorsimb/igorsimb/blob/master/assets/EZ2TASK_thumbnail.jpg?raw=true?raw=true" width="45%" height="200">
-</a>
-<a href="https://github.com/igorsimb/shag_homework_l34" target="_blank">
-    <img src="https://github.com/igorsimb/igorsimb/blob/master/assets/recipes.jfif?raw=true" width="45%" height="200"><br>
+    <img src="https://github.com/igorsimb/igorsimb/blob/master/assets/EZ2TASK_thumbnail.jpg?raw=true?raw=true" width="45%" height="180">
 </a>
 
-<a href="https://github.com/igorsimb/ez2task" target="_blank">
-<img align="" src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=ez2task&theme=tokyonight" width="45%" />
+<a href="https://github.com/igorsimb/poll-api" target="_blank">
+<img align="" src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=poll-api&theme=tokyonight" width="45%">
 </a>
-
-<a href="https://github.com/igorsimb/my_recipes" target="_blank">
- <img align="" src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=my_recipes&theme=tokyonight " width="45%" />
-</a>
-</p>
-
-[comment]: <> ([![Readme Card]&#40;https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=my_recipes&theme=dark&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
 
 <br>
 

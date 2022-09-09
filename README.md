@@ -22,8 +22,6 @@
 
 [comment]: <> (<img src="https://github.com/igorsimb/igorsimb/blob/master/assets/ez2task_logo.jpg" width="300">)
 
-[comment]: <> (<img src="https://i.imgur.com/BthC3Sw.jpeg" alt='Лучшие рецепты мира' width='300'/><br>)
-
 [comment]: <> (<img  src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=ez2task&theme=tokyonight" width="300"/>)
 
 [comment]: <> (</a>)

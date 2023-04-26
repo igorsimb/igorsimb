@@ -16,7 +16,7 @@
 
 <br>
 
-<h2 align="center">My favorite projects</h2>
+<!-- <h2 align="center">My favorite projects</h2>
 
 [comment]: <> (<a href="https://github.com/igorsimb/ez2task" target="_blank">)
 
@@ -36,14 +36,14 @@
 </a>
 
 <br>
-
+-->
 <h2 align="center">Contacts</h2>
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-090909?style=for-the-badge&logo=linkedin&logoColor=27A0D9)](https://www.linkedin.com/in/igor-simbirtsev/)
 [![Telegram](https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/igorsimb)
 [![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=vk&logoColor=27A0D9)](https://vk.com/igor_simbirtsev)
 
-[comment]: <> (https://github.com/anuraghazra/github-readme-stats)
+<!--[comment]: <> (https://github.com/anuraghazra/github-readme-stats)
 
 [comment]: <> (![Anurag's GitHub stats]&#40;https://github-readme-stats.vercel.app/api?username=igorsimb&count_private=true&show_icons=true&theme=dark&#41;)
 
@@ -59,3 +59,4 @@
 <img src="https://github-readme-stats.vercel.app/api?username=igorsimb&theme=dark&show_icons=true" width="45%"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorsimb&layout=compact&theme=dark" width="45%" />
 </p>
+-->

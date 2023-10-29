@@ -42,6 +42,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-090909?style=for-the-badge&logo=linkedin&logoColor=27A0D9)](https://www.linkedin.com/in/igor-simbirtsev/)
 [![Telegram](https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/igorsimb)
 [![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=vk&logoColor=27A0D9)](https://vk.com/igor_simbirtsev)
+<a rel="me" href="https://mastodon.social/@SideProject">Mastodon</a>
 
 <!--[comment]: <> (https://github.com/anuraghazra/github-readme-stats)
 

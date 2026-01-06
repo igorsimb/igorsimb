@@ -1,62 +1,125 @@
-<h1 align="center">Igor Simbirtsev</h1>
-
-### I am a Python web developer
-<br>
-
-<h2 align="center">Languages and Tools</h2>
-<div align="center">
-
-![Python](https://img.shields.io/badge/PYTHON-2b5b84?style=for-the-badge&logo=python&logoColor=f8d945)
-![Django](https://img.shields.io/badge/Django-004524?style=for-the-badge&logo=django&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-FBD502?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-F5F5F5?style=for-the-badge&logo=postgresql&logoColor=0047AB)
-
-</div>
-
-<br>
-
-<!-- <h2 align="center">My favorite projects</h2>
-
-[comment]: <> (<a href="https://github.com/igorsimb/ez2task" target="_blank">)
-
-[comment]: <> (<img src="https://github.com/igorsimb/igorsimb/blob/master/assets/ez2task_logo.jpg" width="300">)
-
-[comment]: <> (<img  src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=ez2task&theme=tokyonight" width="300"/>)
-
-[comment]: <> (</a>)
+<h1 align="center">Игорь Симбирцев</h1>
 
 <p align="center">
-<a href="https://github.com/igorsimb/ez2task" target="_blank">  
-    <img src="https://github.com/igorsimb/igorsimb/blob/master/assets/EZ2TASK_thumbnail.jpg?raw=true?raw=true" width="45%" height="180">
-</a>
-
-<a href="https://github.com/igorsimb/poll-api" target="_blank">
-<img align="" src="https://github-readme-stats.vercel.app/api/pin/?username=igorsimb&repo=poll-api&theme=tokyonight" width="45%">
-</a>
-
-<br>
--->
-<h2 align="center">Contacts</h2>
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-090909?style=for-the-badge&logo=linkedin&logoColor=27A0D9)](https://www.linkedin.com/in/igor-simbirtsev/)
-[![Telegram](https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/igorsimb)
-[![Vkontakte](https://img.shields.io/badge/-Vkontakte-090909?style=for-the-badge&logo=vk&logoColor=27A0D9)](https://vk.com/igor_simbirtsev)
-
-<!--[comment]: <> (https://github.com/anuraghazra/github-readme-stats)
-
-[comment]: <> (![Anurag's GitHub stats]&#40;https://github-readme-stats.vercel.app/api?username=igorsimb&count_private=true&show_icons=true&theme=dark&#41;)
-
-[comment]: <> (![Top Langs]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=igorsimb&layout=compact&theme=dark&#41;)
-
-<br>
+Senior backend-разработчик на Python
+</p>
 
 ---
 
-<br>
+## О себе
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=igorsimb&theme=dark&show_icons=true" width="45%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorsimb&layout=compact&theme=dark" width="45%" />
-</p>
--->
+Я backend-разработчик, последние несколько лет работаю с внутренними системами и аналитическими контурами: загрузка данных, обработка, контроль качества, отчёты и инструменты для аналитиков.
+
+В основном это production-системы, которые:
+- ежедневно обрабатывают десятки миллионов строк данных,
+- работают с ClickHouse объёмом в терабайты,
+- используются аналитиками и бизнесом
+
+Моя основная зона ответственности — backend и данные.  
+Фронтенд использую прагматично: чтобы поверх сложной логики был удобный и понятный интерфейс.
+
+---
+
+## Чем я в основном занимаюсь
+
+- проектирую и поддерживаю backend-системы для аналитики;
+- выстраиваю пайплайны загрузки и обработки данных;
+- работаю с ClickHouse, Postgres и фоновыми задачами;
+- делаю внутренние admin-интерфейсы и инструменты для команд;
+- много внимания уделяю стабильности, поддерживаемости и понятности систем.
+
+---
+
+## Стек
+
+**Backend**
+- Python 3.9–3.13
+- Django, Django REST Framework
+- FastAPI, Flask
+- asyncio (использую в production, без фанатизма)
+
+**Хранение данных**
+- PostgreSQL
+- ClickHouse (TB-scale)
+- Redis
+- ScyllaDB
+
+**Фоновые задачи и планирование**
+- Celery, Celery Beat
+- Airflow (около 15 активных DAG’ов)
+
+**Инфраструктура**
+- Docker, Docker Compose
+- GitHub Actions (CI)
+
+**Качество и поддержка**
+- pytest
+- loguru
+- структурированное логирование и документация
+
+---
+
+## Некоторые проекты, которые я разрабатываю (production, private)
+
+### Внутренняя аналитическая платформа и admin-интерфейс
+
+Я являюсь автором и владельцем внутренней платформы для аналитического отдела: от идеи и архитектуры до реализации и поддержки.
+
+Система объединяет:
+- загрузку данных от поставщиков (email / FTP),
+- валидацию и консолидацию файлов,
+- ночные пайплайны обработки данных,
+- отчёты разной сложности поверх ClickHouse,
+- интеграции с внешними сервисами.
+
+Технически это Django-приложение с Celery и Airflow, работающее поверх ClickHouse (~2.4 TB) и Postgres.
+
+Что удалось сделать:
+- перевести контур аналитических данных из «реактивного» состояния в управляемый;
+- снизить количество повторяющихся инцидентов;
+- сделать процессы предсказуемыми и воспроизводимыми;
+- дать аналитикам возможность работать с данными без постоянного участия разработки.
+
+---
+
+### Pricelens — наблюдаемость загрузки данных
+
+Отдельная подсистема, которую я спроектировал и реализовал для контроля загрузки данных от поставщиков.
+
+Она фиксирует события на всех этапах пайплайна, хранит причины ошибок и даёт интерфейс для расследования проблем.
+
+В результате:
+- появилась сквозная видимость процесса загрузки;
+- проблемы стали выявляться раньше;
+- стало проще находить нестабильных поставщиков и узкие места в контуре.
+
+---
+
+### Emex Upload
+
+Модуль внутри Django-приложения для загрузки и проверки больших файлов.
+
+Основная сложность здесь — валидация и UX:
+- файлы до ~1 млн строк,
+- сложные правила проверки,
+- почти realtime-обратная связь пользователю,
+- подробные сообщения об ошибках и статусах обработки.
+
+---
+
+## Как я подхожу к работе
+
+С инженерной стороны мне важны:
+- поддерживаемость кода,
+- понятная архитектура,
+- тесты и документация.
+
+Со стороны бизнеса — умение объяснять сложные технические вещи разным аудиториям.  
+Благодаря образованию в лингвистике я довольно легко переключаюсь между «инженерным» и результат-ориентированным языком.
+
+---
+
+## Контакты
+
+- LinkedIn: https://www.linkedin.com/in/igor-simbirtsev/
+- Telegram: https://t.me/igor_dev

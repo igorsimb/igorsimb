@@ -36,7 +36,7 @@ Senior backend-разработчик на Python
 - Python 3.9–3.13
 - Django, Django REST Framework
 - FastAPI, Flask
-- asyncio (использую в production, без фанатизма)
+- asyncio
 
 **Хранение данных**
 - PostgreSQL

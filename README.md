@@ -1,125 +1,113 @@
-<h1 align="center">Игорь Симбирцев</h1>
+<h1 align="center">Igor Simbirtsev</h1>
 
 <p align="center">
-Senior backend-разработчик на Python
+Senior Backend Engineer (Python)
 </p>
 
 ---
 
-## О себе
+## About
 
-Я backend-разработчик, последние несколько лет работаю с внутренними системами и аналитическими контурами: загрузка данных, обработка, контроль качества, отчёты и инструменты для аналитиков.
+I am a backend engineer focused on internal systems and data platforms. Over the past few years, I have been working on data ingestion, processing pipelines, data quality, reporting, and tools for analysts.
 
-В основном это production-системы, которые:
-- ежедневно обрабатывают десятки миллионов строк данных,
-- работают с ClickHouse объёмом в терабайты,
-- используются аналитиками и бизнесом
+Most of my work involves production systems that:
+- process tens of millions of rows daily,
+- operate on terabyte-scale ClickHouse datasets,
+- are used by analytics teams and business stakeholders.
 
-Моя основная зона ответственности — backend и данные.  
-Фронтенд использую прагматично: чтобы поверх сложной логики был удобный и понятный интерфейс.
-
----
-
-## Чем я в основном занимаюсь
-
-- проектирую и поддерживаю backend-системы для аналитики;
-- выстраиваю пайплайны загрузки и обработки данных;
-- работаю с ClickHouse, Postgres и фоновыми задачами;
-- делаю внутренние admin-интерфейсы и инструменты для команд;
-- много внимания уделяю стабильности, поддерживаемости и понятности систем.
+My primary focus is backend and data.  
+I approach frontend pragmatically — as a way to make complex systems accessible and usable.
 
 ---
 
-## Стек
+## What I Work On
+
+- designing and maintaining backend systems for analytics;
+- building data ingestion and processing pipelines;
+- working with ClickHouse, PostgreSQL, and background job systems;
+- developing internal admin tools and interfaces;
+- improving system reliability, maintainability, and clarity.
+
+---
+
+## Tech Stack
 
 **Backend**
-- Python 3.9–3.13
+- Python 3.9–3.14
 - Django, Django REST Framework
 - FastAPI, Flask
 - asyncio
 
-**Хранение данных**
+**Data Storage**
 - PostgreSQL
 - ClickHouse (TB-scale)
 - Redis
 - ScyllaDB
 
-**Фоновые задачи и планирование**
+**Background Processing & Scheduling**
 - Celery, Celery Beat
-- Airflow (около 15 активных DAG’ов)
+- Airflow (~15 active DAGs)
 
-**Инфраструктура**
+**Infrastructure**
 - Docker, Docker Compose
 - GitHub Actions (CI)
 
-**Качество и поддержка**
+**Quality & Observability**
 - pytest
 - loguru
-- структурированное логирование и документация
+- structured logging and documentation
 
 ---
 
-## Некоторые проекты, которые я разрабатываю (production, private)
+## Selected Projects (production, private)
 
-### Внутренняя аналитическая платформа и admin-интерфейс
+### Internal Analytics Platform & Admin Interface
 
-Я являюсь автором и владельцем внутренней платформы для аналитического отдела: от идеи и архитектуры до реализации и поддержки.
+I designed and maintain an internal platform used by the analytics team, covering the full lifecycle from ingestion to reporting.
 
-Система объединяет:
-- загрузку данных от поставщиков (email / FTP),
-- валидацию и консолидацию файлов,
-- ночные пайплайны обработки данных,
-- отчёты разной сложности поверх ClickHouse,
-- интеграции с внешними сервисами.
+The system includes:
+- supplier data ingestion (email / FTP),
+- validation and consolidation of incoming files,
+- nightly data processing pipelines,
+- analytical reporting on top of ClickHouse,
+- integrations with external services.
 
-Технически это Django-приложение с Celery и Airflow, работающее поверх ClickHouse (~2.4 TB) и Postgres.
-
-Что удалось сделать:
-- перевести контур аналитических данных из «реактивного» состояния в управляемый;
-- снизить количество повторяющихся инцидентов;
-- сделать процессы предсказуемыми и воспроизводимыми;
-- дать аналитикам возможность работать с данными без постоянного участия разработки.
+Technically, this is a Django-based system with Celery and Airflow, running on top of ClickHouse (~2.4 TB) and PostgreSQL.
 
 ---
 
-### Pricelens — наблюдаемость загрузки данных
+### Pricelens — Data Ingestion Observability
 
-Отдельная подсистема, которую я спроектировал и реализовал для контроля загрузки данных от поставщиков.
+A subsystem for monitoring supplier data ingestion.
 
-Она фиксирует события на всех этапах пайплайна, хранит причины ошибок и даёт интерфейс для расследования проблем.
+It tracks events across the pipeline, stores failure reasons, and provides an interface for investigating issues.
 
-В результате:
-- появилась сквозная видимость процесса загрузки;
-- проблемы стали выявляться раньше;
-- стало проще находить нестабильных поставщиков и узкие места в контуре.
+This improved visibility into the ingestion process and made it easier to identify unstable data sources and bottlenecks.
 
 ---
 
 ### Emex Upload
 
-Модуль внутри Django-приложения для загрузки и проверки больших файлов.
+A Django module for uploading and validating large datasets.
 
-Основная сложность здесь — валидация и UX:
-- файлы до ~1 млн строк,
-- сложные правила проверки,
-- почти realtime-обратная связь пользователю,
-- подробные сообщения об ошибках и статусах обработки.
-
----
-
-## Как я подхожу к работе
-
-С инженерной стороны мне важны:
-- поддерживаемость кода,
-- понятная архитектура,
-- тесты и документация.
-
-Со стороны бизнеса — умение объяснять сложные технические вещи разным аудиториям.  
-Благодаря образованию в лингвистике я довольно легко переключаюсь между «инженерным» и результат-ориентированным языком.
+Key aspects:
+- files up to ~1M rows,
+- complex validation rules,
+- near real-time user feedback,
+- detailed error reporting and processing status.
 
 ---
 
-## Контакты
+## Approach
+
+I focus on building systems that are maintainable, well-structured, and observable.  
+Clear architecture, testing, and documentation are important parts of the process.
+
+I also work closely with non-engineering stakeholders and aim to communicate technical concepts in a clear and practical way.
+
+---
+
+## Contacts
 
 - LinkedIn: https://www.linkedin.com/in/igor-simbirtsev/
 - Telegram: https://t.me/igor_dev
